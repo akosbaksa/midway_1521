@@ -902,10 +902,8 @@ nav {
   font-size: 15px;
   margin: auto;
 }
-.rendeles_gombA{
-  text-decoration: none;
-  color: var(--text-dark);
-}
+
+
 .rendeles_gomb:hover {
   background: rgb(177, 52, 52);
 }
@@ -926,7 +924,7 @@ nav {
 
 .rendeles_gomb  a{
   text-decoration: none;
-  color: white;
+  color: var(--text-dark);
 }
 
 .felgomb {
