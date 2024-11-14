@@ -491,8 +491,11 @@ nav {
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin: auto auto auto 50px;
-
+    margin: auto auto 50px auto;
+  }
+  .rendeles_gomb a{
+    color: black;
+    text-decoration: none;
   }
 }
 
