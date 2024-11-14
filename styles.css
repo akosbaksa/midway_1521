@@ -477,6 +477,9 @@ nav {
     border: none;
     border-radius: 10px;
   }
+  
+}
+@media(300px<width<600px){
   .rendeles_gomb  {
     cursor: pointer;
     font-weight: 700;
@@ -489,7 +492,7 @@ nav {
     align-items: center;
     font-size: 15px;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 
