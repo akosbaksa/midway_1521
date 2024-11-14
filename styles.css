@@ -85,8 +85,21 @@ body {
   min-height: 100vh;
   justify-content: center;
   text-align: center;
+  position: relative; /* Fontos, hogy a ::after pszeudoelem pozícionálható legyen */
 }
 
+
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; /* Az átmenet a div alján kezdődik */
+  left: 0;
+  width: 100%;
+  height: 40px; /* Az átmenet magassága, változtatható */
+  background: linear-gradient(to bottom, transparent, rgba(177, 177, 177, 1)); /* Az áttűnés alul színbe */
+  pointer-events: none; /* Az interakciók elkerülése */
+}
 
 nav {
   position: fixed;
