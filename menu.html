@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="description" content="MidWay Smash Burger, ahol tuti nem futsz zátonyra!">
+    <meta name="keywords" content="midway, burger, smash burger, étterem, midway burger">
+    <meta property="og:image" content="assets/midway_logo_32x32.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="32">
+    <meta property="og:image:height" content="32">
+
+    <link rel="icon" href="assets/midway_logo_32x32.png" type="image/png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="menu_style.css" />
+    <title>MidWay Smash Burger</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="index.html">
+              <img
+                src="assets/midway_boss.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html">KEZDŐLAP</a></li>
+          <li><a href="index.html#special">AKCIÓK</a></li>
+          <li><a href="#menu">MENÜ</a></li> 
+          <li><a href="https://www.foodora.hu/restaurant/c2a3/midway" target="_blank">RENDELÉS</a></li>
+          <li><a href="#contact">KAPCSOLAT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <button class="felgomb" onclick="scrollToTop()">
+        <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+        </svg>
+    </button>
+
+    <section class="section__container order__container" id="menu">
+      <h3>BURGER AJÁNLATOK</h3>
+      <h2 class="section__header">HAMBURGEREINK</h2>
+      <p class="section__description">
+        Akár a klasszikus ízekre vágysz, akár merész kombinációkat keresel, itt kezdődik a gasztronómiai utazásod. Engedj a vágyaidnak, és élvezd minden falatot, miközben megalkotod személyre szabott burger élményedet a Burger Company-val.
+      </p>
+      <br>
+        <div class="order__grid">
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/midway_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Midway Burger</h4>
+                <p>
+                    Vajas briós buci, 12dkg hortobágyi Angus marhahúspogácsa, karamellizált hagyma, dupla cheddar sajt, Midway szósz (édeskés, uborkás, majonéz alapú szósz)
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>2 490 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/tomcat_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Tomcat Burger</h4>
+                <p>
+                    Vajas briós buci, 12dkg hortobágyi Angus marhahúspogácsa, karamellizált hagyma, dupla cheddar sajt, lollo saláta, paradicsom, Midway szósz (édeskés, uborkás, majonéz alapú szósz)
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>2 790 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/hornet_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Hornet Burger</h4>
+                <p>
+                    Vajas briós buci, 12dkg hortobágyi Angus marhahúspogácsa, karamellizált hagyma, dupla cheddar sajt, lollo saláta, jalapeno, csemegeuborka, Hornet szósz (majonézes, ketchupos, uborkás, csípős szósz)
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>2 790 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/phantom_burger_menu.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Phantom Burger</h4>
+                <p>
+                    Vajas briós buci, 18dkg hortobágyi Angus marhahúspogácsa, karamellizált hagyma, tripla cheddar sajt, tripla bacon, paradicsom, csemegeuborka, lollo saláta, Midway szósz (édeskés, uborkás, majonéz alapú szósz)
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>3 290 Ft</h4>
+                </div>
+            </div>
+
+            <!-- --- ITT KEZDŐDIK A MENÜS RÉSZ -->
+            <h2 class="section__header">KÉRD MENÜBEN</h2>
+            <h4 class="menuleiras">
+                Menüben kérheted fűszeres sültburgonyával vagy hagymakarikákkal, választható szósszal + üditővel!
+            </h4>
+            
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/midway_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Midway Menü</h4>
+                <p>
+                    1db Midway burger, 1 adag hagymakarika (9db) vagy 1 adag burgonya (kb 15dkg) szósszal illetve egy választható Pepsi
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>3 590 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/tomcat_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Tomcat Menü</h4>
+                <p>
+                    1db Tomcat burger, 1 adag hagymakarika (9db) vagy 1 adag burgonya (kb 15dkg) szósszal illetve egy választható Pepsi
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>3 890 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/hornet_burger.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Hornet Menü</h4>
+                <p>
+                    1db Hornet burger, 1 adag hagymakarika (9db) vagy 1 adag burgonya (kb 15dkg) szósszal illetve egy választható Pepsi
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>3 890 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/phantom_burger_menu.jpg" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Phantom Menü</h4>
+                <p>
+                    1db Phantom burger, 1 adag hagymakarika (9db) vagy 1 adag burgonya (kb 15dkg) szósszal illetve egy választható Pepsi
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>4 390 Ft</h4>
+                </div>
+            </div>
+            <h2 class="section__header">KÖRET</h2>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/krumpli.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Fűszeres sültburgonya</h4>
+                <p>
+                    Kb. 17 dkg
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>990 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/hagyma.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Hagymakarika</h4>
+                <p>
+                    Kb. 17 dkg
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>990 Ft</h4>
+                </div>
+            </div>
+            <h2 class="section__header">SZÓSZOK</h2>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/szoszok.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Midway szósz</h4>
+                <p>
+                    Édeskés, uborkás, majonéz alapú szósz
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>390 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/szoszok.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Fokhagymás citrusos szósz</h4>
+                <p>
+                    Fokhagymás szósz
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>390 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/szoszok.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Hornet szósz</h4>
+                <p>
+                    Majonézes, ketchupos, uborkás, csípős szósz
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>390 Ft</h4>
+                </div>
+            </div>
+            <div class="order__card">
+                <div class="menukep">
+                    <img src="assets/szoszok.png" alt="order" />
+                </div>
+                <div class="menuszoveg">
+                    <h4>Ketchup, majonéz</h4>
+                <p>
+                    Ketchup, majonéz
+                </p>
+                </div>
+                <div class="menuar">
+                    <h4>390 Ft</h4>
+                </div>
+            </div>
+            <h2 class="section__header">ÜDÍTŐK</h2>
+            <img src="assets/uditok.png" alt="uditok" class="uditok">
+        </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/allergens-icon-set.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h2 class="section__header">ALLERGÉNEK</h2>
+          <p class="section__description">
+            Ételeink laktózt, glutént, tojást, mustárt, mustármagot,
+            mustármaglisztet, szulfitot, kálium-metabiszulfitot, zellert
+            szóját, szezámmagot tartalmazhatnak.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <div class="kapcsolat-card">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2671.81665136181!2d21.7130678768283!3d47.95926946355724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47389ff49bb00631%3A0x81b3a832f013c863!2sMidway%20Burger!5e0!3m2!1shu!2shu!4v1731438672612!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/midway_boss.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Burger Company, where passion for exceptional food and
+            genuine hospitality come together. Our story is one of dedication to
+            crafting the perfect burger experience, from sourcing the finest
+            ingredients to delivering unparalleled taste in every bite.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                4400, Nyíregyháza, Univerzum, Vay Ádám krt. 4-6.
+              </li>
+              <li>
+                <span><i class="ri-phone-fill"></i></span>
+                +36 20 619 0789
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/p/Midway-Burger-61560782576477/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="https://www.instagram.com/midwayburger/" target="_blank"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.tiktok.com/@midwayburger" target="_blank"><i class="ri-tiktok-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 MidWay Smash Burger Nyíregyháza
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

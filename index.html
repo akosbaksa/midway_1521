@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="description" content="MidWay Smash Burger, ahol tuti nem futsz zátonyra!">
+    <meta name="keywords" content="midway, burger, smash burger, étterem, midway burger">
+    <meta property="og:image" content="assets/midway_logo_32x32.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="32">
+    <meta property="og:image:height" content="32">
+
+    <link rel="icon" href="assets/midway_logo_32x32.png" type="image/png">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MidWay Smash Burger</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/midway_boss.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#">KEZDŐLAP</a></li>
+          <li><a href="#special">AKCIÓK</a></li>
+          <li><a href="menu.html">MENÜ</a></li>
+          <li><a href="https://www.foodora.hu/restaurant/c2a3/midway" target="_blank">RENDELÉS</a></li>
+          <li><a href="#contact">KAPCSOLAT</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2><strong>AHOL TUTI NEM FUTSZ ZÁTONYRA</strong></h2>
+          <h1>BURGER<br /><span>HETEK</span></h1>
+        </div>
+      </div>
+      <a href="https://www.foodora.hu/restaurant/c2a3/midway" target="_blank">
+        <button class="rendeles_gomb">
+        <span>RENDELÉS</span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 74 74"
+          height="34"
+          width="34"
+        >
+          <circle stroke-width="3" stroke="black" r="35.5" cy="37" cx="37"></circle>
+          <path
+            fill="black"
+            d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z"
+          ></path>
+        </svg>
+      </button>
+    </a>
+    </header>
+    <button class="felgomb" onclick="scrollToTop()">
+      <svg class="svgIcon" viewBox="0 0 384 512">
+      <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+      ></path>
+      </svg>
+  </button>
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>LEGKEDVELTEBB BURGERÜNK</p>
+        <h4>PHANTOM BURGER</h4>
+      </div>
+      <div class="banner__card">
+        <p>KÉRD MENÜBEN</p>
+        <h4>KRUMPLI VAGY<br />HAGYMAKARIKA<br />ÜDÍTŐVEL</h4>
+      </div>
+      <div class="banner__card">
+        <p>SZÓSZAINK</p>
+        <h4>FOKHAGYMÁS<br />CSÍPŐS<br />ÉDES</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>KÍNÁLATUNK</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        Whether you crave classic flavors or daring combinations, this is where
+        your culinary journey begins. Indulge your cravings and savor every bite
+        as you create your personalized burger experience with Burger Company.
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/phantom_nobackground.png" alt="order" />
+          <h4>Chicken Burger</h4>
+          <p>
+            Sink your teeth into the timeless perfection of our Chicken Burger,
+            an experience that never goes out of style.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Veggie Delight Burger</h4>
+          <p>
+            Embrace the vibrant flavors of our Veggie Delight Burger, a
+            celebration of freshness and wholesome goodness.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>BBQ Bacon Burger</h4>
+          <p>
+            Indulge in a symphony of smoky, savory flavors with our BBQ Bacon
+            Burger, grilled and topped with crispy bacon.
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="section__header">HÍREK ÉS AKCIÓK</h2>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/phantom_burger_1.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>AKCIÓ</h3>
+          <h2 class="section__header">PHANTOM HETEK</h2>
+          <p class="section__description">
+            A <strong>Phantom Hetek</strong> keretein belül December 15-ig a sokak által kedvelt Phantom Burgerünk üzletünkben kedvezményesen kapható magában és menüben is!
+            Nem érdemes lemaradni róla!
+            A kedvezmény csak a nyíregyházi éttermünkben érhető el személyes átvétellel, online rendelés esetén az akció nem érvényes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/seenew_jo.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>ÚJDONSÁG</h3>
+          <h2 class="section__header">SEENEW DRINK</h2>
+          <p class="section__description">
+            Megjelent a legújabb magyar gyártású üdítő, amely már nálunk is kapható!
+            Ez nem más, mint a <strong>SeeNew Drink</strong>, mely többféle ízben is elérhető éttermünkben!
+            Jöjjön és próbálja ki Ön is!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <div class="kapcsolat-card">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2671.81665136181!2d21.7130678768283!3d47.95926946355724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47389ff49bb00631%3A0x81b3a832f013c863!2sMidway%20Burger!5e0!3m2!1shu!2shu!4v1731438672612!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/midway_boss.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to Burger Company, where passion for exceptional food and
+            genuine hospitality come together. Our story is one of dedication to
+            crafting the perfect burger experience, from sourcing the finest
+            ingredients to delivering unparalleled taste in every bite.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                4400, Nyíregyháza, Univerzum, Vay Ádám krt. 4-6.
+              </li>
+              <li>
+                <span><i class="ri-phone-fill"></i></span>
+                +36 20 619 0789
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/p/Midway-Burger-61560782576477/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="https://www.instagram.com/midwayburger/" target="_blank"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.tiktok.com/@midwayburger" target="_blank"><i class="ri-tiktok-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 MidWay Smash Burger Nyíregyháza
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
