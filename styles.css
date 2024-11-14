@@ -491,7 +491,9 @@ nav {
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin: auto auto 50px auto;
+    bottom: 50px;
+    left: 50%;
+    position: relative;
   }
   .rendeles_gomb a{
     color: black;
