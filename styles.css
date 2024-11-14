@@ -479,7 +479,7 @@ nav {
   }
   
 }
-@media(300px<width<600px){
+@media(300px<width<800px){
   .rendeles_gomb  {
     cursor: pointer;
     font-weight: 700;
