@@ -902,7 +902,10 @@ nav {
   font-size: 15px;
   margin: auto;
 }
-
+.rendeles_gombA{
+  text-decoration: none;
+  color: var(--text-dark);
+}
 .rendeles_gomb:hover {
   background: rgb(177, 52, 52);
 }
